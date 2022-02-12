@@ -26,6 +26,7 @@
       </ul>      
     </div>
     <div class="container">
+      <%= javascript_pack_tag 'application' %>
       <% if flash.notice.present? %>
         <div class="alert alert-success">
           <%= flash.notice %>
